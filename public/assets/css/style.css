@@ -1,0 +1,49 @@
+.card,
+.btn-hover {
+  transition: all 0.25s ease-in;
+}
+
+.card-hover:hover,
+.card-hover:focus,
+.card-hover:active {
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.btn-hover {
+  line-height: 1;
+  font-size: 25px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.btn-hover:hover,
+.btn-hover:focus,
+.btn-hover:active {
+  transform: scale(1.1);
+  outline: none;
+}
+
+.form {
+  line-height: 1;
+}
+
+.overview-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort {
+  width: 35%;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.form-control {
+  display: inline;
+  /* width: 70%; */
+  line-height: 1;
+}
+
+.btn {
+  display: inline;
+}
